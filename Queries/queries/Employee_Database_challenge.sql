@@ -37,16 +37,6 @@ INTO unique_titles
 FROM retirement_titles
 ORDER BY emp_no ASC, title,to_date DESC;
 
---Note: There are duplicate entries for some employees because they have switched titles 
---over the years. Use the following instructions to remove these duplicates & keep only the most recent title of each employee.
-
--SELECT COUNT (unique_titles.title),
-unique_titles.title
-FROM unique_titles
-INTO retiring_titles
-WHERE unique_titles.title = 
-GROUP BY unique_titles.title
-ORDER BY unique_titles.count DESC;
 
 --15. Write another query in the Employee_Database_challenge.sql file to retrieve the number of employees by their most recent job title who are about to retire.
 --16. First, retrieve the number of titles from the Unique Titles table.
