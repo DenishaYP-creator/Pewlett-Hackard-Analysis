@@ -38,7 +38,7 @@ WHERE title = 'Senior Staff';
 [![retirement-titles-step1-7.png](https://i.postimg.cc/m2ZjrhGN/retirement-titles-step1-7.png)](https://postimg.cc/WtKgWNzh)
 
 
-**STEP 2: Eemove these duplicates and keep only the most recent title of each employee.
+#### STEP 2: Eemove these duplicates and keep only the most recent title of each employee.
 
 1. From Retirement Titles table. Retrieve employee number, first and last name, and title columns 
 2. Usingse DISTINCT ON stmt defined by the ON () clause to Retrieve the first employee number occurrence in each set of rows 
