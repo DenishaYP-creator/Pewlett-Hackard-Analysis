@@ -17,11 +17,8 @@ The following image illustrates Pewlett-Hackard total number of employees eligib
 [![Mentorship-List.png](https://i.postimg.cc/Prj2Z2nH/Mentorship-List.png)](https://postimg.cc/3WtXQjwf)
 
 ## Summary: 
-Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
-	◦	How many roles will need to be filled as the "silver tsunami" begins to make an impact? The total number of roles that will need to be filed is 
-	41,380
-	◦	Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
-	1549
+- The total number of roles that will need to be filed as the ""silver tsunami" begins to make an impact is 41,380
+- The total retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees? 1549
 
 ## Workflow:
 
