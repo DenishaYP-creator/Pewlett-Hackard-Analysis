@@ -71,4 +71,4 @@ The following image illustrates Pewlett-Hackard total number of employees eligib
 
 [![Mentorship-List.png](https://i.postimg.cc/Prj2Z2nH/Mentorship-List.png)](https://postimg.cc/3WtXQjwf)
 
-## Resources:
+
