@@ -18,17 +18,21 @@ The following image illustrates Pewlett-Hackard total number of employees eligib
 
 ## Summary: 
 - The total number of roles that will need to be filed as the ""silver tsunami" begins to make an impact is 41,380
-- The total retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees? 1549
+- The total retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees 1549
+- The total retirement-ready employees in the departments who are Engineers to mentor the next generation of Pewlett Hackard Engineer is 190
+- The total retirement-ready employees in the departments who are Senior Staff to mentor the next generation of Pewlett Hackard Senior Staff is 569. 
 
-## Workflow:
+## Additional Queries for Mentorship List of Engineers & Senior Staff
+-- Number of employees retiring who are Engineer's
+SELECT COUNT(first_name)
+FROM mentorship_eligibilty
+WHERE title = 'Engineer';
+-- Number of employees retiring who are Senior Staff 
+SELECT COUNT(first_name)
+FROM mentorship_eligibilty
+WHERE title = 'Senior Staff';
 
-### Deliverable 1 
-**STEP 1: Create a Retirement Titles table that holds all the titles of current employees who were born between January 1, 1952 and December 31, 1955** 
-1. From the Employee Table retrieve emp_no, first_name,& last_name columns. 
-2. From Titles Tablle retrieve the title, from_date, and to_date columns. 
-3. Create a new table using the INTO clause &  using the primary key join both tables.
-4. Filter by birth_date retrieving employees born between 1952 & 1955; ordering by employee number. 
-5. Export retirement_titles.csv 
+
 
 **Retirement Titles Table 
 
@@ -67,8 +71,8 @@ The following image illustrates Pewlett-Hackard total number of employees eligib
 6. Join Employees % Titles tables on the primary key.
 7. Filter on the to_date column to obtain employees wiht birth dates between 01.01.1965 & 12.31.1965 & Order by the employee number.
 8. Export as mentorship_eligibilty.csv 
-**Mentorship Table 
 
+**Mentorship Table 
 [![Mentorship-List.png](https://i.postimg.cc/Prj2Z2nH/Mentorship-List.png)](https://postimg.cc/3WtXQjwf)
 
 
