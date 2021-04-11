@@ -23,18 +23,17 @@ The following image illustrates Pewlett-Hackard total number of employees eligib
 - The total retirement-ready employees in the departments who are Senior Staff to mentor the next generation of Pewlett Hackard Senior Staff is 569. 
 
 ## Additional Queries for Mentorship List of Engineers & Senior Staff
--- Number of employees retiring who are Engineer's
+- Number of employees retiring who are Engineer's
 SELECT COUNT(first_name)
 FROM mentorship_eligibilty
 WHERE title = 'Engineer';
--- Number of employees retiring who are Senior Staff 
+-  Number of employees retiring who are Senior Staff 
 SELECT COUNT(first_name)
 FROM mentorship_eligibilty
 WHERE title = 'Senior Staff';
 
 
-
-**Retirement Titles Table 
+#### Retirement Titles Table 
 
 [![retirement-titles-step1-7.png](https://i.postimg.cc/m2ZjrhGN/retirement-titles-step1-7.png)](https://postimg.cc/WtKgWNzh)
 
@@ -47,18 +46,18 @@ WHERE title = 'Senior Staff';
 4. Sort the Unique Titles table in ascending order by employee number & descending order by last date of most recent title.
 5. Export the Unique Titles table as unique_titles.csv 
 
-**Unique Titles Table 
+#### Unique Titles Table 
 
 [![unique-titles-9-13-image.png](https://i.postimg.cc/KzJ61w40/unique-titles-9-13-image.png)](https://postimg.cc/wyRfPWXN)
 
-**STEP 3: Retrieve the number of employees by their most recent job title who are about to retire.
+####  STEP 3: Retrieve the number of employees by their most recent job title who are about to retire.
 
 1. From the Unique Titles table retrieve number of titles  
 2. Use Into clasue create a Retiring Titles table 
 3. Group by title, sort count column in descending order.
 4. Export as retiring_titles.csv. 
 
-**Retiring Titles Table 
+#### Retiring Titles Table 
 
 [![retiring-titles-misswing-UNIQUE-png.png](https://i.postimg.cc/HswbggKD/retiring-titles-misswing-UNIQUE-png.png)](https://postimg.cc/KRY1PdxJ)
 
@@ -72,7 +71,7 @@ WHERE title = 'Senior Staff';
 7. Filter on the to_date column to obtain employees wiht birth dates between 01.01.1965 & 12.31.1965 & Order by the employee number.
 8. Export as mentorship_eligibilty.csv 
 
-**Mentorship Table 
+#### Mentorship Table 
 [![Mentorship-List.png](https://i.postimg.cc/Prj2Z2nH/Mentorship-List.png)](https://postimg.cc/3WtXQjwf)
 
 
