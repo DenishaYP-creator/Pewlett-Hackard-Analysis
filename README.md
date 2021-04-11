@@ -7,17 +7,21 @@ determine the number of employeed who will be retiring soon while also identifyi
 ## Results: 
 Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
 ### Deliverable 1: Number of Retiring Employees by Title
-The following images demonstrates Pewlett-Hackard total number of employees nearing retirment by title: 
+The following image illustrates Pewlett-Hackard total number of employees nearing retirement by title: 
 [![retiring-titles-misswing-UNIQUE-png.png](https://i.postimg.cc/HswbggKD/retiring-titles-misswing-UNIQUE-png.png)](https://postimg.cc/KRY1PdxJ)
 
 ### Deliverable 2: Employees Eligible for the Mentorship Program
+The following image illustrates Pewlett-Hackard total number of employees eligible for the Mentorship Program: 
 
+[![Mentee-Count.png](https://i.postimg.cc/kXVcpzMg/Mentee-Count.png)](https://postimg.cc/8jSMFyr2)
+[![Mentorship-List.png](https://i.postimg.cc/Prj2Z2nH/Mentorship-List.png)](https://postimg.cc/3WtXQjwf)
 
 ## Summary: 
 Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
 	◦	How many roles will need to be filled as the "silver tsunami" begins to make an impact? The total number of roles that will need to be filed is 
 	41,380
 	◦	Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+	1549
 
 ## Workflow:
 
@@ -32,6 +36,7 @@ Provide high-level responses to the following questions, then provide two additi
 **Retirement Titles Table 
 
 [![retirement-titles-step1-7.png](https://i.postimg.cc/m2ZjrhGN/retirement-titles-step1-7.png)](https://postimg.cc/WtKgWNzh)
+
 
 **STEP 2: Eemove these duplicates and keep only the most recent title of each employee.
 
